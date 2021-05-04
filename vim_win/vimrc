@@ -1,4 +1,4 @@
-call plug#begin('~/vimfiles/plugged')
+call plug#begin('G:/Programs/vim/vimfiles/plugged')
 "start interface
 Plug 'mhinz/vim-startify'
 Plug 'vim-airline/vim-airline'
