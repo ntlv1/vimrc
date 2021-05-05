@@ -20,8 +20,10 @@ set guifont=Cascadia_Code:h10
 set encoding=utf-8
 set fileencodings=utf-8,chinese,latin-1,utf-16
 set fileencoding=utf-8
-so $VIMRUNTIME/delmenu.vim
-so $VIMRUNTIME/menu.vim
+set guioptions-=m
+set guioptions-=T
+"so $VIMRUNTIME/delmenu.vim
+"so $VIMRUNTIME/menu.vim
 language messages zh_CN.utf-8
 
 set backspace=2
